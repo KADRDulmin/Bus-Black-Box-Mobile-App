@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "765122054961",
+    "firebase_url": "https://nodemcu5575-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "nodemcu5575",
+    "storage_bucket": "nodemcu5575.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765122054961:android:5aa3e26b4d1a38ab697e10",
+        "android_client_info": {
+          "package_name": "com.aries.BBBS"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765122054961-fhnt9eel8mqik2n6hed7c82afr368t69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF4AoGAriXnTm_mt6VLUsWDNcz9xDEdVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765122054961-fhnt9eel8mqik2n6hed7c82afr368t69.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

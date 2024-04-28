@@ -1,0 +1,64 @@
+name: BBBS
+description: ""
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  fluttertoast: ^8.2.4
+  email_validator: ^2.1.17
+  permission_handler: ^11.1.0
+  intl: ^0.19.0
+  flutter_datetime_picker_plus: ^2.1.0
+  firebase_database: ^10.3.8
+  firebase_auth: ^4.15.3
+  flutter_launcher_icons: ^0.13.1
+  form_validation: ^3.1.1+2
+  firebase_core: ^2.24.2
+  awesome_notifications: ^0.9.1
+  google_maps_flutter: ^2.5.3
+  flutter_expanded_tile: ^0.3.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/logo.png"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo.png
+    - assets/images/user.png
+    - assets/images/res_custom_notification.m4a
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/Raleway/static/Raleway-Regular.ttf
+          weight: 400
+    - family: Raleway-Medium
+      fonts:
+        - asset: assets/fonts/Raleway/static/Raleway-Medium.ttf
+          weight: 500
+    - family: Raleway-SemiBold
+      fonts:
+        - asset: assets/fonts/Raleway/static/Raleway-SemiBold.ttf
+          weight: 600
+    - family: Raleway-Bold
+      fonts:
+        - asset: assets/fonts/Raleway/static/Raleway-Bold.ttf
+          weight: 700
